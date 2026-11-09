@@ -1,699 +1,656 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "jamal-campus",
+  "title": "捡到 Jamal 的手机",
+  "description": "高二学生 Jamal 的手机落在了操场上。翻看他的聊天、相册和备忘录，你会看到两段偷偷藏了半学期、终于说出口的喜欢。锁屏密码是他的生日：2 月 26 日（0226）。",
+  "revision": 1,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "Jamal Musiala",
+    "date": "2026-11-09",
+    "time": "18:42",
+    "battery": 78,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "theme": "light",
+    "passcode": "0226"
   },
   "installedApps": [
-    "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
     "phone",
     "messages",
-    "contacts",
+    "wechat",
+    "instagram",
     "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
+    "camera",
     "notes",
     "calendar",
-    "mail",
     "clock",
-    "reminders",
-    "files",
-    "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
+    "contacts",
+    "safari",
     "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "appstore"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
-      "phone": "",
-      "bio": "这是一条测试内容。"
+      "id": "alphonso",
+      "name": "Alphonso Davies",
+      "phone": "13900000001",
+      "bio": "高二2班 · 最好的朋友"
+    },
+    {
+      "id": "michael",
+      "name": "Michael Olise",
+      "phone": "13900000002",
+      "bio": "高二1班 · 暗恋的人"
+    },
+    {
+      "id": "jude",
+      "name": "Jude Bellingham",
+      "phone": "13900000003",
+      "bio": "高二2班 · 同桌"
+    },
+    {
+      "id": "nathaniel",
+      "name": "Nathaniel Brown",
+      "phone": "13900000004",
+      "bio": "高二16班 · 朋友"
+    },
+    {
+      "id": "aleksandar",
+      "name": "Aleksandar Pavlović",
+      "phone": "13900000005",
+      "bio": "高二11班 · 朋友"
+    },
+    {
+      "id": "tom",
+      "name": "Tom Bischof",
+      "phone": "13900000006",
+      "bio": "高二11班 · 朋友"
+    },
+    {
+      "id": "lennart",
+      "name": "Lennart Karl",
+      "phone": "13900000007",
+      "bio": "高二2班 · 朋友"
+    },
+    {
+      "id": "lamine",
+      "name": "Lamine Yamal",
+      "phone": "13900000008",
+      "bio": "高二18班 · 朋友"
+    },
+    {
+      "id": "desire",
+      "name": "Désiré Doué",
+      "phone": "13900000009",
+      "bio": "高二1班 · Michael 的同桌"
+    },
+    {
+      "id": "manu",
+      "name": "Manu Koné",
+      "phone": "13900000010",
+      "bio": "高二3班 · Michael 的朋友"
+    },
+    {
+      "id": "bradley",
+      "name": "Bradley Barcola",
+      "phone": "13900000011",
+      "bio": "高二3班 · Michael 的朋友"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
+      "id": "chat-alphonso",
       "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
+      "title": "Alphonso",
+      "participants": ["alphonso", "owner"],
       "messages": [
         {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "msg-alphonso-1",
+          "body": "你真的不打算表白吗？这都快期末了。",
+          "senderId": "alphonso"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
+          "id": "msg-alphonso-2",
+          "body": "我怂啊…… Michael 跟我都不是一个班的。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-alphonso-3",
+          "body": "你们不是加了微信吗？上个月篮球赛他还专门来给你递水。",
+          "senderId": "alphonso"
+        },
+        {
+          "id": "msg-alphonso-4",
+          "body": "那是 Désiré 让他帮忙带的吧……",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-alphonso-5",
+          "body": "别给自己加戏。Désiré 说你俩有戏，下周他生日，你冲不冲？",
+          "senderId": "alphonso"
+        },
+        {
+          "id": "msg-alphonso-6",
+          "body": "我再准备准备……",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-alphonso-7",
+          "body": "礼物买了吗？表白词写了吗？就问你怂不怂。",
+          "senderId": "alphonso"
+        },
+        {
+          "id": "msg-alphonso-8",
+          "body": "写了，不敢发……",
+          "senderId": "owner"
+        }
+      ]
+    },
+    {
+      "id": "chat-michael",
+      "app": "wechat",
+      "title": "Michael",
+      "participants": ["michael", "owner"],
+      "messages": [
+        {
+          "id": "msg-michael-1",
+          "body": "Jamal，今天数学最后一题你会吗？能给我讲讲吗？",
+          "senderId": "michael"
+        },
+        {
+          "id": "msg-michael-2",
+          "body": "会！你等一下，我把步骤写下来拍给你。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-michael-3",
+          "body": "谢谢你！你讲题比老师清楚多了。",
+          "senderId": "michael"
+        },
+        {
+          "id": "msg-michael-4",
+          "body": "哈哈哪有，是你聪明。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-michael-5",
+          "body": "下周我生日，晚上在操场那边，你来吗？",
+          "senderId": "michael"
+        },
+        {
+          "id": "msg-michael-6",
+          "body": "来！我一定来。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-michael-7",
+          "body": "那我等你。对了……你有话想跟我说吗？",
+          "senderId": "michael"
+        },
+        {
+          "id": "msg-michael-confess",
+          "body": "有。我喜欢你，Michael。很久了，不是朋友的那种喜欢。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-michael-yes",
+          "body": "我也是。从篮球赛那天就喜欢你了。我们在一起吧。",
+          "senderId": "michael"
+        }
+      ]
+    },
+    {
+      "id": "chat-jude",
+      "app": "wechat",
+      "title": "Jude",
+      "participants": ["jude", "owner"],
+      "messages": [
+        {
+          "id": "msg-jude-1",
+          "body": "Lamine 今天又在动态里 @ 我，说我菜，气死我了。",
+          "senderId": "jude"
+        },
+        {
+          "id": "msg-jude-2",
+          "body": "你俩这不就是打情骂俏吗……你不是喜欢他吗？",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-jude-3",
+          "body": "谁喜欢他了！我们是死对头！",
+          "senderId": "jude"
+        },
+        {
+          "id": "msg-jude-4",
+          "body": "行，那相册里那张你们的合照你留着干嘛？",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-jude-5",
+          "body": "……我那是忘了删。",
+          "senderId": "jude"
+        },
+        {
+          "id": "msg-jude-6",
+          "body": "嘴硬。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-jude-lamine",
+          "body": "我跟 Lamine 表白了。他也喜欢我。我们在一起了。",
+          "senderId": "jude"
+        },
+        {
+          "id": "msg-jude-7",
+          "body": "！！！恭喜啊同桌！我就说你们是欢喜冤家！",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-jude-8",
+          "body": "你呢？追到 Michael 了吗？",
+          "senderId": "jude"
+        },
+        {
+          "id": "msg-jude-9",
+          "body": "马上，就差最后一步了……",
+          "senderId": "owner"
+        }
+      ]
+    },
+    {
+      "id": "chat-class-2",
+      "app": "wechat",
+      "title": "高二2班（4）",
+      "participants": ["alphonso", "jude", "lennart", "owner"],
+      "messages": [
+        {
+          "id": "msg-class-1",
+          "body": "明天物理周测，有人复习了吗？",
+          "senderId": "lennart"
+        },
+        {
+          "id": "msg-class-2",
+          "body": "没有，已经躺平。",
+          "senderId": "jude"
+        },
+        {
+          "id": "msg-class-3",
+          "body": "同躺。周测而已。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-class-4",
+          "body": "你们……我好歹看两眼。",
+          "senderId": "alphonso"
+        },
+        {
+          "id": "msg-class-5",
+          "body": "篮球赛决赛定在周五下午了，都来加油！",
+          "senderId": "alphonso"
+        },
+        {
+          "id": "msg-class-6",
+          "body": "来！",
+          "senderId": "lennart"
+        }
+      ]
+    },
+    {
+      "id": "chat-lamine",
+      "app": "wechat",
+      "title": "Lamine",
+      "participants": ["lamine", "owner"],
+      "messages": [
+        {
+          "id": "msg-lamine-1",
+          "body": "你同桌 Jude 今天又在走廊上跟我呛，幼稚死了。",
+          "senderId": "lamine"
+        },
+        {
+          "id": "msg-lamine-2",
+          "body": "他其实人挺好的，就是嘴硬。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-lamine-3",
+          "body": "我知道。就是逗他好玩。",
+          "senderId": "lamine"
+        },
+        {
+          "id": "msg-lamine-4",
+          "body": "你俩有戏，我赌五毛。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-lamine-5",
+          "body": "嘘，别让他知道。",
+          "senderId": "lamine"
+        }
+      ]
+    },
+    {
+      "id": "chat-nathaniel",
+      "app": "wechat",
+      "title": "Nathaniel",
+      "participants": ["nathaniel", "owner"],
+      "messages": [
+        {
+          "id": "msg-nathaniel-1",
+          "body": "周末打球吗？老地方。",
+          "senderId": "nathaniel"
+        },
+        {
+          "id": "msg-nathaniel-2",
+          "body": "来，我叫上 Aleksandar 和 Tom。",
+          "senderId": "owner"
+        },
+        {
+          "id": "msg-nathaniel-3",
+          "body": "好，顺便帮你参考下生日礼物。",
+          "senderId": "nathaniel"
+        }
+      ]
+    },
+    {
+      "id": "chat-friends",
+      "app": "wechat",
+      "title": "球场兄弟（4）",
+      "participants": ["nathaniel", "aleksandar", "tom", "owner"],
+      "messages": [
+        {
+          "id": "msg-friends-1",
+          "body": "周六下午三点，学校旁边那个场。",
+          "senderId": "nathaniel"
+        },
+        {
+          "id": "msg-friends-2",
+          "body": "收到，我占场。",
+          "senderId": "aleksandar"
+        },
+        {
+          "id": "msg-friends-3",
+          "body": "我带水。",
+          "senderId": "tom"
+        },
+        {
+          "id": "msg-friends-4",
+          "body": "我晚点到，先去办点事。",
           "senderId": "owner"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
+        "id": "photo-birthday",
+        "title": "17岁生日",
+        "body": "2月26日，吹蜡烛许愿。今年想要的是一点勇气。",
+        "kind": "text"
+      },
       {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
+        "id": "photo-basketball",
+        "title": "年级篮球赛",
+        "body": "夺冠那天，全班在体育馆门口合影。Michael 就站在第二排。",
+        "kind": "text"
+      },
       {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
+        "id": "photo-michael",
+        "title": "舍不得删的一张",
+        "body": "篮球赛结束，Michael 站在场边喝水的侧影。拍糊了，但一直没舍得删。",
         "kind": "text",
-        "meta": {}
+        "hidden": true
+      },
+      {
+        "id": "photo-jude-lamine",
+        "title": "某人的珍藏",
+        "body": "Jude 手机里那张「忘记删」的合照，其实他也发过我一份。两个嘴上说着死对头的人。",
+        "kind": "text",
+        "hidden": true
       }
     ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-todo",
+        "title": "这周要记得",
+        "body": "1. 给 Michael 挑生日礼物\n2. 物理周测复习\n3. 周六打球\n4. 周五篮球赛决赛加油\n5. 把表白词再背几遍",
+        "kind": "note"
+      },
+      {
+        "id": "note-diary",
+        "title": "11月的日记",
+        "body": "今天 Michael 主动找我讲题了。他说我讲得清楚。\n回宿舍的路上，Alphonso 一直拿胳膊肘撞我，说我要笑到耳朵根了。\n好吧，我承认，我就是喜欢他。",
+        "kind": "note"
+      },
+      {
+        "id": "note-love-letter",
+        "title": "没敢发出去的话",
+        "body": "Michael：\n认识你之后，我每天都想找理由和你说话。\n你讲题时我其实一个字都没听进去，光看着你了。\n你的生日快到了，我把这段话写了很多遍。\n如果这次能说出口，希望你能听完——\n我喜欢你。",
+        "kind": "note",
+        "hidden": true
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
+        "id": "event-birthday",
+        "title": "Michael 生日",
+        "body": "2月26日 · 晚上操场 · 带上礼物和勇气",
+        "kind": "event"
+      },
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "event-basketball",
+        "title": "年级篮球赛决赛",
+        "body": "周五 16:00 · 体育馆 · 2班 vs 1班",
+        "kind": "event"
+      },
+      {
+        "id": "event-physics",
+        "title": "物理周测",
+        "body": "周四 08:00 · 记得带计算器",
+        "kind": "event"
       }
     ],
     "clock": [
       {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "alarm-run",
+        "title": "晨跑",
+        "body": "06:00 · 操场 · 叫上 Alphonso",
+        "kind": "text"
+      },
+      {
+        "id": "alarm-breakfast",
+        "title": "起床",
+        "body": "06:30 · 去食堂买两份早餐，一份顺路带给 Michael",
+        "kind": "text"
       }
     ],
-    "reminders": [
+    "messages": [
       {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "sms-school",
+        "title": "教务处",
+        "body": "【通知】高二年级篮球赛决赛定于本周五 16:00 在体育馆举行，请各班组织观赛。",
+        "kind": "text"
+      },
+      {
+        "id": "sms-code",
+        "title": "验证码",
+        "body": "【校园通】您的验证码为 4826，5 分钟内有效。请勿泄露。",
+        "kind": "text"
       }
     ],
-    "files": [
+    "phone": [
       {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
+        "id": "call-alphonso",
+        "title": "Alphonso",
+        "body": "昨晚 22:14 · 12 分钟 · 聊表白计划聊到半夜",
+        "kind": "call"
+      },
       {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "call-michael",
+        "title": "Michael",
+        "body": "昨天 21:02 · 3 分钟 · 约好生日见面",
+        "kind": "call"
       }
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "ig-post-michael",
+        "title": "Michael Olise",
+        "body": "年级篮球赛冠军 🏀 感谢每一位队友。",
+        "kind": "post",
+        "sender": "Michael Olise",
+        "likes": 132,
+        "comments": ["Alphonso Davies：帅！", "Désiré Doué：冠军！！"]
       },
       {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
+        "id": "ig-post-jamal",
+        "title": "Jamal Musiala",
+        "body": "有些话，说出口就好了。",
+        "kind": "post",
+        "sender": "Jamal Musiala",
+        "likes": 89,
+        "comments": ["Jude Bellingham：哟？", "Alphonso Davies：冲！"]
       },
       {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
+        "id": "ig-story-lamine",
+        "title": "Lamine Yamal",
+        "body": "和某人较劲的一天 😏",
+        "kind": "post",
+        "sender": "Lamine Yamal",
+        "meta": { "story": "true" }
       },
       {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "ig-dm-michael",
+        "title": "Michael Olise",
+        "body": "生日那天，别迟到哦。",
+        "folder": "私信",
+        "sender": "Michael Olise",
+        "kind": "text"
       }
     ]
   },
   "variables": {},
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "welcome",
+      "label": "开始",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "日历：2月26日 · Jamal 的生日"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "信息：你捡到了 Jamal 的手机。锁屏密码是他的生日 0226。"
+        }
+      ]
+    },
+    {
+      "id": "unlock-michael",
+      "label": "揭晓 Michael 的心意",
+      "type": "event",
+      "event": "read",
+      "target": "msg-michael-yes",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-michael",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "note-love-letter",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "相册里多了一张照片，备忘录里多了一条草稿。"
+        }
+      ]
+    },
+    {
+      "id": "unlock-jude",
+      "label": "揭晓 Jude 的故事",
+      "type": "event",
+      "event": "read",
+      "target": "msg-jude-lamine",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-jude-lamine",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "相册里又多了一张照片。"
+        }
+      ]
+    },
+    {
+      "id": "finale",
+      "label": "读完了所有话",
+      "type": "event",
+      "event": "read",
+      "target": "note-love-letter",
+      "next": ["ending-choice"]
+    },
+    {
+      "id": "ending-choice",
+      "label": "故事的结尾",
+      "type": "choice",
+      "next": ["ending-together", "ending-bless"]
+    },
+    {
+      "id": "ending-together",
+      "label": "祝福他们",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "在一起了：Jamal 和 Michael 在操场边牵起了手，Jude 和 Lamine 也终于承认了彼此。两段偷偷藏了半学期的喜欢，都开花了。"
+        }
+      ]
+    },
+    {
+      "id": "ending-bless",
+      "label": "放回原处",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "默默祝福：你把手机放回了失物招领处。几天后，听说 2 班的 Jamal 和 1 班的 Michael 在一起了，Jude 和 Lamine 也成了。故事还在继续。"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "祝福他们",
+      "steps": [
+        { "event": "read", "target": "msg-michael-yes" },
+        { "event": "read", "target": "photo-michael" },
+        { "event": "read", "target": "note-love-letter" },
+        { "choose": "ending-together" }
+      ],
+      "ending": "在一起了：Jamal 和 Michael 在操场边牵起了手，Jude 和 Lamine 也终于承认了彼此。两段偷偷藏了半学期的喜欢，都开花了。",
+      "expectUnlocked": ["photo-michael"]
+    },
+    {
+      "name": "放回原处",
+      "steps": [
+        { "event": "read", "target": "msg-michael-yes" },
+        { "event": "read", "target": "note-love-letter" },
+        { "choose": "ending-bless" }
+      ],
+      "ending": "默默祝福：你把手机放回了失物招领处。几天后，听说 2 班的 Jamal 和 1 班的 Michael 在一起了，Jude 和 Lamine 也成了。故事还在继续。",
+      "expectUnlocked": ["photo-michael"]
+    }
+  ]
 }
